@@ -4470,16 +4470,16 @@
 		(uuid "fb331d5f-3f50-4457-8116-9176df038681")
 	)
 	(junction
+		(at 59.69 22.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fb8fdf7a-b037-4dd8-a581-e7f8f50deb05")
+	)
+	(junction
 		(at 139.7 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fc4b7bbf-70e8-4449-9dc0-a067f3293e14")
-	)
-	(junction
-		(at 59.69 22.86)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ff92adea-d00f-4b31-aef7-4ad681df9600")
 	)
 	(no_connect
 		(at 124.46 165.1)
@@ -4756,16 +4756,6 @@
 			(type default)
 		)
 		(uuid "20272c0e-dcd9-48b2-99ec-91baa88c996b")
-	)
-	(wire
-		(pts
-			(xy 59.69 17.78) (xy 59.69 22.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "24580c56-d418-43ec-8918-67a8c1ef3fcd")
 	)
 	(wire
 		(pts
@@ -5809,6 +5799,16 @@
 	)
 	(wire
 		(pts
+			(xy 59.69 19.05) (xy 59.69 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3a16d45-8b40-42cf-893d-38a1657fc141")
+	)
+	(wire
+		(pts
 			(xy 241.3 149.86) (xy 241.3 151.13)
 		)
 		(stroke
@@ -6598,6 +6598,72 @@
 			(project "Seminarni rad ver 1"
 				(path "/071dfc4d-d3f6-4752-9a76-11410e80c51a"
 					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 59.69 19.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1935bb89-827d-4541-b809-d43cbfd89903")
+		(property "Reference" "#PWR01"
+			(at 59.69 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 59.69 13.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 59.69 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 59.69 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 59.69 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5b5b0c9c-2f4a-4b16-8505-6d7e772a866f")
+		)
+		(instances
+			(project "Seminarni rad ver 1"
+				(path "/071dfc4d-d3f6-4752-9a76-11410e80c51a"
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -8770,72 +8836,6 @@
 			(project ""
 				(path "/071dfc4d-d3f6-4752-9a76-11410e80c51a"
 					(reference "R11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 59.69 17.78 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "aa1efaa9-81fc-4bc9-b626-487845d15081")
-		(property "Reference" "#PWR01"
-			(at 59.69 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 57.404 13.716 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 59.69 17.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 59.69 17.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 59.69 17.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "10f659dc-de22-4879-b56d-eb9524bac013")
-		)
-		(instances
-			(project ""
-				(path "/071dfc4d-d3f6-4752-9a76-11410e80c51a"
-					(reference "#PWR01")
 					(unit 1)
 				)
 			)
